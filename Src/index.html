@@ -9,23 +9,18 @@
 </head>
 
 <body>
-    <div class="form_auth_block">
-    </div>
-    <div class="form_auth_block_content">
-        <p class="form_auth_block_head_text">Авторизация</p>
-        <form class="form_auth_style" action="#" method="post">
-            <div>
-                <label>Введите Ваш имейл</label>
-            </div>
+    <form action="">
+        <h1>Авторизация</h1>
+        <div>
             <input type="email" name="auth_email" placeholder="Введите Ваш имейл" required>
-            <div>
-                <label>Введите Ваш пароль</label>
-            </div>
+        </div>
+        <div>
             <input type="password" name="auth_pass" placeholder="Введите пароль" required>
-            <div>
-                <button class="form_auth_button" type="submit" name="form_auth_submit">Войти</button>
-            </div>
-        </form>
+        </div>
+        <div>
+            <button class="form_auth_button" type="submit" name="form_auth_submit">Войти</button>
+        </div>
+    </form>
     </div>
 </body>
 
@@ -45,6 +40,14 @@
             <input type="password" name="pasword_confirm" placeholder="Повторите ваш пароль">
         </div>
         <button>Зарегистрироваться</button>
+    </form>
+</body>
+
+<body>
+    <h1>Список задач</h1>
+    <form>
+        <input type="text" name="task" placeholder="Введите название задачи">
+        <button type="submit">Добавить задачу</button>
     </form>
 </body>
 

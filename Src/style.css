@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    appearance: none;
+    justify-content: center;
+    background-color: #f6f6f6;
+}
+
+.auth-container {
+    width: 320px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+input,
+button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
