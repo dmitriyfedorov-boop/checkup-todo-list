@@ -1,28 +1,54 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Первый сайт</title>
+    <title>Тестовый сайт</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <body>
-        <div class="form_auth_block">
-        <div class="form_auth_block_content">
-            <p style="color: brown;" class="form_auth_block_head_text">Авторизация</p>
-            <form class="form_auth_style" action="#" method="post">
-            <div>
-            <label>Введите Ваш имейл</label>
-            </div>
-            <input type="email" name="auth_email" placeholder="Введите Ваш имейл" required >
-            <div>
-            <label>Введите Ваш пароль</label>
-            </div>
-            <input type="password" name="auth_pass" placeholder="Введите пароль" required >
-            <div>
-            <button class="form_auth_button" type="submit" name="form_auth_submit">Войти</button>
-            </div>
-            </form>
+    <form action="">
+        <h1>Авторизация</h1>
+        <div>
+            <input type="email" name="auth_email" placeholder="Введите Ваш имейл" required>
         </div>
-    </body>
+        <div>
+            <input type="password" name="auth_pass" placeholder="Введите пароль" required>
+        </div>
+        <div>
+            <button class="form_auth_button" type="submit" name="form_auth_submit">Войти</button>
+        </div>
+    </form>
+    </div>
+</body>
+
+<body>
+    <form action="">
+        <h2>Регистрация</h2>
+        <div>
+            <input type="text" name="username" placeholder="Введите Ваш логин">
+        </div>
+        <div>
+            <input type="email" name="email" placeholder="Введите Ваш email">
+        </div>
+        <div>
+            <input type="password" name="password" placeholder="Введите ваш пароль">
+        </div>
+        <div>
+            <input type="password" name="pasword_confirm" placeholder="Повторите ваш пароль">
+        </div>
+        <button>Зарегистрироваться</button>
+    </form>
+</body>
+
+<body>
+    <h1>Список задач</h1>
+    <form>
+        <input type="text" name="task" placeholder="Введите название задачи">
+        <button type="submit">Добавить задачу</button>
+    </form>
+</body>
+
 </html>
